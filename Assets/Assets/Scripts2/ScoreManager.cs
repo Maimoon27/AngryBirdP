@@ -67,13 +67,13 @@ public class ScoreManager
             }
        
        
-        // public void ResetScore()
-        // {
-        //     score = 0;
-        //     kills = 0;
-        //     attempts = 0;
-        //     scoreText.text = "Score: " + score;
-        //     killCount.text = "Kills: " + kills;
-        //     TotalAttempts.text = "Attempts: " + attempts;
-        // }
+        public void ResetScore()
+        {
+            score = 0;
+            kills = 0;
+            attempts = 0;
+            scoreText.text = "Score: " + score;
+          s  killCount.text = "Kills: " + kills;
+            TotalAttempts.text = "Attempts: " + attempts;
+        }
 }
