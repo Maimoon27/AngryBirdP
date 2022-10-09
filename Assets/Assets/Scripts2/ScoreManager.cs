@@ -73,7 +73,7 @@ public class ScoreManager
             kills = 0;
             attempts = 0;
             scoreText.text = "Score: " + score;
-          s  killCount.text = "Kills: " + kills;
+            killCount.text = "Kills: " + kills;
             TotalAttempts.text = "Attempts: " + attempts;
         }
 }
